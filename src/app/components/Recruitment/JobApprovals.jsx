@@ -10,7 +10,7 @@ import JobDetailModal from "../../features/Approvals/DetailsModal";
 import { ApproveModal, RejectModal } from "../../features/Approvals/ConfirmationModals";
 
 // ======================= Config =======================
-const API_BASE = "https://jellyfish-app-z83s2.ondigitalocean.app";
+const API_BASE = "https://sayc-app-api-39gxh.ondigitalocean.app";
 
 // ======================= Utils ========================
 const toUpper = (s) => (s || "").toUpperCase();

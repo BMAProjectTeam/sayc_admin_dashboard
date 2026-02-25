@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 
-const API_BASE = "https://jellyfish-app-z83s2.ondigitalocean.app";
+const API_BASE = "https://sayc-app-api-39gxh.ondigitalocean.app";
 
 const getAuth = () => {
   const token =

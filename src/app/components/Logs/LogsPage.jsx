@@ -72,7 +72,7 @@ const LogsPage = () => {
     try {
       setLoading(true); setError(null);
       const response = await fetch(
-        "https://jellyfish-app-z83s2.ondigitalocean.app/api/admin/logs",
+        "https://sayc-app-api-39gxh.ondigitalocean.app/api/admin/logs",
         { method: "GET", headers: { "Content-Type": "application/json" } }
       );
       if (!response.ok) throw new Error("Failed to fetch logs");

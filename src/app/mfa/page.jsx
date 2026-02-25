@@ -36,7 +36,7 @@ export default function MFAPage() {
 
     try {
       const res = await fetch(
-        "https://jellyfish-app-z83s2.ondigitalocean.app/api/admin/adminAuth",
+        "https://sayc-app-api-39gxh.ondigitalocean.app/api/admin/adminAuth",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -69,7 +69,7 @@ export default function MFAPage() {
 
     try {
       const res = await fetch(
-        `https://jellyfish-app-z83s2.ondigitalocean.app/api/admin/resendMFA/${userId}`,
+        `https://sayc-app-api-39gxh.ondigitalocean.app/api/admin/resendMFA/${userId}`,
         { method: "POST" }
       );
       const data = await res.json();
