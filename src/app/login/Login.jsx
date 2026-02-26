@@ -45,7 +45,7 @@ export default function LoginPage() {
         <div className="flex justify-center mb-6">
           <Image
             src="https://res.cloudinary.com/dbuuizuka/image/upload/v1772065331/SAYC-Lower-Resolution-Logo-150x150_pw1bg9.png"
-            alt="Company Logo"
+            alt="SAYC Logo"
             width={80}
             height={80}
             className="rounded-full"
@@ -107,7 +107,7 @@ export default function LoginPage() {
         </form>
 
         <p className="text-center text-xs text-gray-400 mt-6">
-          © {new Date().getFullYear()} BMA Recruitment Portal
+          © {new Date().getFullYear()} SAYC Recruitment Portal
         </p>
       </div>
     </div>

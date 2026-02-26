@@ -93,7 +93,7 @@ export default function MFAPage() {
         <div className="flex justify-center mb-6">
           <Image
             src="https://res.cloudinary.com/dbuuizuka/image/upload/v1772065331/SAYC-Lower-Resolution-Logo-150x150_pw1bg9.png"
-            alt="BMA Logo"
+            alt="SAYC Logo"
             width={80}
             height={80}
             className="rounded-full"
