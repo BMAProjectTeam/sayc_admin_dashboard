@@ -53,6 +53,8 @@ export default function MFAPage() {
       sessionStorage.setItem("admin_email", data.email);
       sessionStorage.setItem("admin_department", data.department);
       sessionStorage.setItem("admin_role", data.role);
+      sessionStorage.setItem("access_token", data.access_token);
+
       router.push("/pages/dashboard");
     } catch (err) {
       setError(err.message);
